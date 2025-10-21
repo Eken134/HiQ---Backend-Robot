@@ -8,14 +8,16 @@ Koordinatsystem och riktningar:
 
 Utgår från ett klassiskt kartesiskt plan där (0, 0) ligger i nedre vänstra hörnet.
 
-y ↑
-4 |     NORTH ↑
-3 |
-2 |
-1 |
-0 |----------------→
-    0 1 2 3 4
-
+```text
+   y
+   ↑
+ 4 |         NORTH ↑
+ 3 |               
+ 2 |               
+ 1 |               
+ 0 |  (0,0) → EAST → x
+    --------------------→
+      0  1  2  3  4
 
 
 Riktningarna hanteras i ordningen:
