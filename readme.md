@@ -4,21 +4,18 @@ Ett Python-projekt som simulerar en robot som rör sig på ett 5×5-bord.
 
 ---
 
-Koordinatsystem och riktningar
-Utgår från ett klassiskt kartesiskt plan där:
+Koordinatsystem och riktningar:
 
-(0, 0) ligger i nedre vänstra hörnet.  
+Utgår från ett klassiskt kartesiskt plan där (0, 0) ligger i nedre vänstra hörnet.
 
+y ↑
+4 |     NORTH ↑
+3 |
+2 |
+1 |
+0 |----------------→
+    0 1 2 3 4
 
-   y
-   ↑
- 4 |         NORTH ↑
- 3 |               
- 2 |               
- 1 |               
- 0 |
-    --------------------→
-      0  1  2  3  4
 
 
 Riktningarna hanteras i ordningen:
